@@ -30,7 +30,7 @@ Aici adun toate exercițiile, proiectele și experimentele mele în **Python**, 
 
 ## 🗂️ Structura repository-ului
 ```
-📦 python-learning
+📦 learning-python
 ├── 📁 exercitii/            # Exerciții de bază (variabile, bucle, condiții)
 └── 📄 README.md
 ```
@@ -92,7 +92,6 @@ me.learn("Python OOP")
 print(me)
 ```
 ## 📫 Contactează-mă
-________________________________________________________________________________________________________________________
 
 [![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/users/stasmrd)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/stasmrd)
