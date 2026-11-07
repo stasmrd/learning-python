@@ -171,13 +171,22 @@ import math
 #TODO ------------------------------------------------
 # 5.1 || EX 12
 
-n,m = map(int, input().split())
-i = n
-result = ''
-while  i<=m:
-    if (i % 2)!=0:
-        result += str(i) + ' '
-    i += 1
-print(result)
+# n,m = map(int, input().split())
+# i = n
+# result = ''
+# while  i<=m:
+#     if (i % 2)!=0:
+#         result += str(i) + ' '
+#     i += 1
+# print(result)
 #TODO ------------------------------------------------
 # 5.1 || EX 13
+
+number = 100
+result = ''
+while number < 1000:
+    if number % 3 == 0 and number % 47 == 43:
+        result += str(number) + ' '
+    number += 1
+print(result)
+#TODO ------------------------------------------------
