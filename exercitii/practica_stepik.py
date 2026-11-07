@@ -123,8 +123,18 @@ import math
 # 5.1 || EX 7
 
 # msg = input()
-# while msg.count('-',) != 2:
-#     msg = msg.replace('--', '-')
+# while '--' in msg:
+#     msg = msg.replace('--','-')
 # print(msg)
 #TODO ------------------------------------------------
 # 5.1 || EX 8
+
+n = list(map(int,input()))
+i = 0
+result = 1
+while i<len(n):
+    result = result * n[i]
+    i=i+1
+print(result)
+#TODO ------------------------------------------------
+# 5.1 || EX 9
