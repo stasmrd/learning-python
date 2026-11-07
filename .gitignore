@@ -1,0 +1,8 @@
+# Environments
+.venv/
+venv/
+env/
+
+# PyCharm
+.idea/
+*.iml
