@@ -129,12 +129,26 @@ import math
 #TODO ------------------------------------------------
 # 5.1 || EX 8
 
-n = list(map(int,input()))
-i = 0
-result = 1
-while i<len(n):
-    result = result * n[i]
-    i=i+1
-print(result)
+# n = list(map(int,input()))
+# i = 0
+# result = 1
+# while i<len(n):
+#     result = result * n[i]
+#     i=i+1
+# print(result)
 #TODO ------------------------------------------------
 # 5.1 || EX 9
+
+n = int(input())
+a,b = 1,1   # am luat din comments
+i = 0
+result = '1'
+while len(result.split(' ')) < n:
+    i+=2
+    a,b = b,a+b # am luat din comments
+    result += " "+str(a)
+print(result)
+#TODO ------------------------------------------------
+# 5.1 || EX 10
+
+
