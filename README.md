@@ -21,7 +21,7 @@ Bun venit în biblioteca mea personală de programe! 👋
 
 Aici adun toate exercițiile, proiectele și experimentele mele în **Python**, create pe parcursul călătoriei mele de învățare. Fiecare fișier reprezintă un pas mic spre a deveni un programator mai bun.
 
-- 🎓 Urmez cursul de **Python** pe [Stepik](https://stepik.org)
+- 🎓 Urmez cursul de **Python** pe [Stepik](https://stepik.org/course/100707/syllabus)
 - 💻 Scriu și testez codul în **PyCharm**
 - 🌱 Învăț constant lucruri noi și le aplic practic
 - 🎯 Scopul: construirea unui portofoliu solid de proiecte
