@@ -161,12 +161,23 @@ import math
 #TODO ------------------------------------------------
 # 5.1 || EX 11
 
-n = int(input())
-i = 1
-dep = 1000
-while i <= n:
-     dep += (dep*0.05)
-     i+=1
-print(round(dep,2))
+# n = int(input())
+# i = 1
+# dep = 1000
+# while i <= n:
+#      dep += (dep*0.05)
+#      i+=1
+# print(round(dep,2))
 #TODO ------------------------------------------------
 # 5.1 || EX 12
+
+n,m = map(int, input().split())
+i = n
+result = ''
+while  i<=m:
+    if (i % 2)!=0:
+        result += str(i) + ' '
+    i += 1
+print(result)
+#TODO ------------------------------------------------
+# 5.1 || EX 13
