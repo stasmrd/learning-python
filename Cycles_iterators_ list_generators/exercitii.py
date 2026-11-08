@@ -158,22 +158,30 @@ import math
 #         continue
 #
 #     p[i] = 1
-#     print(p)
+#     print(p) #TODO:        PENTRU TEST
 #
 #     if p.count(1) == 5:
 #         break
 # print(*p)
 
 # ALTA METODA:
-p = [0] * 10
-while p.count(1) != 5:
-    i = int(input())
-    if p[i] == 1:
-        continue
-    p[i] = 1
-    #print(p)
-print(*p)
-#TODO ------------------------------------------------
-#TODO: 5.2 | OPERATORII: BREAK / CONTINUE / ELSE |
+# p = [0] * 10
+# while p.count(1) != 5:
+#     i = int(input())
+#     if p[i] == 1:
+#         continue
+#     p[i] = 1
+#     #print(p)
+# print(*p)
 #TODO ------------------------------------------------
 # 5.2 || EX 5
+
+result = 1
+while i:=int(input()):
+    if i!=0 and i>0:
+        result = result*i
+        # print(result) #TODO:        PENTRU TEST
+        continue
+print(result)
+#TODO ------------------------------------------------
+# 5.2 || EX 6
