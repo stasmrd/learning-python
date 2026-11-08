@@ -176,12 +176,24 @@ import math
 #TODO ------------------------------------------------
 # 5.2 || EX 5
 
-result = 1
-while i:=int(input()):
-    if i!=0 and i>0:
-        result = result*i
-        # print(result) #TODO:        PENTRU TEST
-        continue
-print(result)
+# result = 1
+# while i:=int(input()):
+#     if i!=0 and i>0:
+#         result = result*i
+#         # print(result) #TODO:        PENTRU TEST
+#         continue
+# print(result)
 #TODO ------------------------------------------------
 # 5.2 || EX 6
+
+msg = list(map(str, input().split()))
+i = -1
+while i < len(msg):
+    if len(msg[i]) <5:
+        print("nu")
+        break
+    i +=1
+else:
+    print("da")
+#TODO ------------------------------------------------
+# 5.2 || EX 7
