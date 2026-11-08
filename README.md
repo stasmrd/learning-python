@@ -30,8 +30,9 @@ Aici adun toate exercițiile, proiectele și experimentele mele în **Python**, 
 
 ## 🗂️ Structura repository-ului
 ```
-📦 learning-python
-├── 📁 exercitii/            # Exerciții de bază (variabile, bucle, condiții)
+📦 learning-python/
+├── 📁 Cycles_iterators_list_generators/         
+├── 📁 exercitii/                # Exerciții de bază (variabile, bucle, condiții)
 └── 📄 README.md
 ```
 
