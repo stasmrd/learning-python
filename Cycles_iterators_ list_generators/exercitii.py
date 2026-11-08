@@ -2,7 +2,7 @@
 #TODO: 5.1 | Ciclul While |
 #TODO ------------------------------------------------
 
-import math
+import math,sys
 
 #TODO ------------------------------------------------
 
@@ -241,15 +241,29 @@ import math
 #TODO ------------------------------------------------
 # 5.2 || EX 10
 
-n = int(input())
-i = 0
-result = 10
-while True:
-    i+=1
-    if result <=n:
-        result += (result * 0.1)
-    else:
-        break
-print(i)
+# n = int(input())
+# i = 0
+# result = 10
+# while True:
+#     i+=1
+#     if result <=n:
+#         result += (result * 0.1)
+#     else:
+#         break
+# print(i)
 #TODO ------------------------------------------------
 # 5.2 || EX 11
+
+result = []
+i = 0
+lst_in = list(map(str.strip, sys.stdin.readlines()))
+while True:
+    if i == len(lst_in):
+        break
+    if ' ' not in lst_in[i]:
+        result.append(lst_in[i])
+        # print(result) #TODO: TEST
+    i+=1
+print(*result)
+#TODO:------------------------------------------------
+#     ------------------------------------------------
