@@ -186,14 +186,27 @@ import math
 #TODO ------------------------------------------------
 # 5.2 || EX 6
 
-msg = list(map(str, input().split()))
-i = -1
-while i < len(msg):
-    if len(msg[i]) <5:
-        print("nu")
-        break
-    i +=1
-else:
-    print("da")
+# msg = list(map(str, input().split()))
+# i = -1
+# while i < len(msg):
+#     if len(msg[i]) <5:
+#         print("nu")
+#         break
+#     i +=1
+# else:
+#     print("da")
 #TODO ------------------------------------------------
 # 5.2 || EX 7
+
+# msg = list(map(str, input().lower().split()))
+# i = 0
+# # print(msg[i][0],msg[i][-1])
+# while i < len(msg):
+#     if msg[i][0] == msg[i][-1]:
+#         print("ДА")
+#         break
+#     i+=1
+# else:
+#     print("НЕТ")
+#TODO ------------------------------------------------
+# 5.2 || EX 8
