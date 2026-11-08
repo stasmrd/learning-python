@@ -164,7 +164,8 @@ import math
 #         break
 # print(*p)
 
-# ALTA METODA:
+#TODO  ||  ALTA METODA:
+
 # p = [0] * 10
 # while p.count(1) != 5:
 #     i = int(input())
@@ -211,18 +212,32 @@ import math
 #TODO ------------------------------------------------
 # 5.2 || EX 8
 
-n = int(input())
-i = 0
-result = []
-while i<=n:
-    i += 1
-    if n > 99:
-        print('слишком большое значение n')
-        break
-    if (i % 3 == 0) and (i % 5 == 0):
-        result.append(i)
-        # print(i)            #TODO:        PENTRU TEST
-        # print(result)       #TODO:        PENTRU TEST
-print(*result)
+# n = int(input())
+# i = 0
+# result = []
+# while i<=n:
+#     i += 1
+#     if n > 99:
+#         print('слишком большое значение n')
+#         break
+#     if (i % 3 == 0) and (i % 5 == 0):
+#         result.append(i)
+#         # print(i)            #TODO:        PENTRU TEST
+#         # print(result)       #TODO:        PENTRU TEST
+# print(*result)
 #TODO ------------------------------------------------
 # 5.2 || EX 9
+
+n = int(input())
+i = 1
+result = []
+while i <= n:
+    if i ** 2 > n:
+        result.append(i)
+        # print(result)           #TODO:        PENTRU TEST
+        break
+    i+=1
+print(*result)
+
+#TODO ------------------------------------------------
+# 5.2 || EX 10
