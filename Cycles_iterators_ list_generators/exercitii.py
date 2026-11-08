@@ -228,16 +228,28 @@ import math
 #TODO ------------------------------------------------
 # 5.2 || EX 9
 
-n = int(input())
-i = 1
-result = []
-while i <= n:
-    if i ** 2 > n:
-        result.append(i)
-        # print(result)           #TODO:        PENTRU TEST
-        break
-    i+=1
-print(*result)
-
+# n = int(input())
+# i = 1
+# result = []
+# while True:
+#     if i ** 2 > n:
+#         result.append(i)
+#         # print(result)           #TODO:        PENTRU TEST
+#         break
+#     i+=1
+# print(*result)
 #TODO ------------------------------------------------
 # 5.2 || EX 10
+
+n = int(input())
+i = 0
+result = 10
+while True:
+    i+=1
+    if result <=n:
+        result += (result * 0.1)
+    else:
+        break
+print(i)
+#TODO ------------------------------------------------
+# 5.2 || EX 11
