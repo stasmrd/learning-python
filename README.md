@@ -33,6 +33,7 @@ Aici adun toate exercițiile, proiectele și experimentele mele în **Python**, 
 📦 learning-python/
 ├── 📁 Cycles_iterators_list_generators/         
 ├── 📁 exercitii/                # Exerciții de bază (variabile, bucle, condiții)
+├── 📄 .gitignore
 └── 📄 README.md
 ```
 
