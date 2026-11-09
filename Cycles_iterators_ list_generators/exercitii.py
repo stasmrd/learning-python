@@ -342,3 +342,18 @@ import math,sys
 #         print(i)
 #     i+=1
 #TODO ------------------------------------------------
+# 5.3 | EX 11 |
+
+# n = int(input())
+# i = 1
+# result = []
+# for i in range(1,n+1):
+#     if n % i == 0:
+#         result.append(i)
+#
+# if len(result) == 2:
+#     print('Da')
+# else:
+#     print('Nu')
+
+#TODO ------------------------------------------------
