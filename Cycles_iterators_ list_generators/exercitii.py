@@ -296,3 +296,16 @@ import math,sys
 
 #TODO ------------------------------------------------
 # 5.3 | EX 7 |
+
+# inp = list(map(int,input().split()))
+# i = 0
+# result = []
+# for inp[i] in inp:
+#     if inp[i] % 2 != 0:
+#         result.append(inp[i])
+#         # print(result)         #TODO:        PENTRU TEST
+#     i+=1
+# print(sum(result))
+
+#TODO ------------------------------------------------
+# 5.3 | EX 8 |
