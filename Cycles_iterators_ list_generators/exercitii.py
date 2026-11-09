@@ -254,26 +254,33 @@ import math,sys
 #TODO ------------------------------------------------
 # 5.2 || EX 11
 
-result = []
-i = 0
-lst_in = list(map(str.strip, sys.stdin.readlines()))
-while True:
-    if i == len(lst_in):
-        break
-    if ' ' not in lst_in[i]:
-        result.append(lst_in[i])
-        # print(result) #TODO: TEST
-    i+=1
-print(*result)
+# result = []
+# i = 0
+# lst_in = list(map(str.strip, sys.stdin.readlines()))
+# while True:
+#     if i == len(lst_in):
+#         break
+#     if ' ' not in lst_in[i]:
+#         result.append(lst_in[i])
+#         # print(result) #TODO: TEST
+#     i+=1
+# print(*result)
 #TODO:------------------------------------------------
 #TODO ------------------------------------------------
 #TODO: 5.3 | OPERATORUL FOR & functia range() |
 #TODO ------------------------------------------------
 # 5.3 | EX 3 |
 
-lst = []
-for i in range(11):
-    lst.append(i)
-print(*lst)
+# lst = []
+# for i in range(11):
+#     lst.append(i)
+# print(*lst)
 #TODO ------------------------------------------------
 # 5.3 | EX 4 |
+
+# lst = []
+# for i in range(-10,0,1):
+#     lst.append(i)
+# print(*lst)
+#TODO ------------------------------------------------
+# 5.3 | EX 5 |
