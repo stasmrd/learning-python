@@ -357,3 +357,21 @@ import math,sys
 #     print('Nu')
 
 #TODO ------------------------------------------------
+# 5.3 | EX 12 |
+
+# inp = list(map(str,input().lower().split()))
+# is_true = True
+# for i in range(1,len(inp)):
+#     inp[i] = inp[i].rstrip('ьъы')
+#     if inp[i][0] == inp[i-1][-1]:
+#         is_true = True
+#     else:
+#         is_true = False
+#         break
+#
+# if is_true is True:
+#     print("ДА")
+# else:
+#     print("НЕТ")
+
+#TODO ------------------------------------------------
