@@ -309,3 +309,15 @@ import math,sys
 
 #TODO ------------------------------------------------
 # 5.3 | EX 8 |
+
+# n = int(input())
+# i = 0
+# result = []
+# for i in range(1,n):
+#     if i % 3 == 0 or i % 5 == 0:
+#         result.append(i)
+#         #print(result)         #TODO:        PENTRU TEST
+#     i+=1
+# print(sum(result))
+
+#TODO ------------------------------------------------
