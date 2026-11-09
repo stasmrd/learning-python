@@ -321,3 +321,15 @@ import math,sys
 # print(sum(result))
 
 #TODO ------------------------------------------------
+# 5.3 | EX 9 |
+
+# inp = list(map(str,input().split()))
+# i = 0
+# result = []
+# for inp[i] in inp:
+#     result.append(len(inp[i]))
+#     # print(result)           #TODO:        PENTRU TEST
+#     i += 1
+# print(*result)
+
+#TODO ------------------------------------------------
