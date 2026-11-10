@@ -375,3 +375,17 @@ import math,sys
 #     print("НЕТ")
 
 #TODO ------------------------------------------------
+#TODO: 5.4 | OPERATORUL FOR & functia enumerate() |
+#TODO ------------------------------------------------
+# 5.4 | EX 4 |
+
+inp = str(input())
+result = []
+if not 'ра' in inp:
+    print(-1)
+else:
+    for i in range(len(inp) - 1):
+        if inp[i] == 'р' and inp[i + 1] == 'а':
+            result.append(i)
+print(*result)
+#TODO ------------------------------------------------
