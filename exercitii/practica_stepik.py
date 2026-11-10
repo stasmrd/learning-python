@@ -79,3 +79,13 @@ import math
 #     i+=1
 
 #TODO ------------------------------------------------
+# FACTORIAL
+
+n = int(input("Intrdu un numar: "))
+i = 1
+result = 1
+for i in range(1,n+1):
+    result *= i
+    i += 1
+print(f"Raspuns: {n}! = {result}.")
+#TODO ------------------------------------------------
