@@ -420,10 +420,23 @@ import math,sys
 #TODO ------------------------------------------------
 # 5.4 | EX 8 |
 
-inp = list(map(int,input().split()))
+# inp = list(map(int,input().split()))
+# result = []
+# for i in range(0,len(inp)):
+#     result.append(inp[i])
+#     result.append(inp[i])
+# print(*result)
+#TODO ------------------------------------------------
+# 5.4 | EX 9 |
+
+inp = list(map(float,input().split()))
 result = []
-for i in range(0,len(inp)):
-    result.append(inp[i])
-    result.append(inp[i])
+flag = 0
+for i in range(1,len(inp)):
+    if inp[i] < inp[i-1]:
+        for i in range(1, len(inp)):
+            if inp[i] < inp[i - 1]:
+                result.clear()
+                result.append(inp[i])
 print(*result)
 #TODO ------------------------------------------------
