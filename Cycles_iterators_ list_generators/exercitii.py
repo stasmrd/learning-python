@@ -379,13 +379,42 @@ import math,sys
 #TODO ------------------------------------------------
 # 5.4 | EX 4 |
 
-inp = str(input())
+# inp = str(input())
+# result = []
+# if not 'ра' in inp:
+#     print(-1)
+# else:
+#     for i in range(len(inp) - 1):
+#         if inp[i] == 'р' and inp[i + 1] == 'а':
+#             result.append(i)
+# print(*result)
+#TODO ------------------------------------------------
+# 5.4 | EX 5 | - nerezolvat
+
+# number = ''
+# i = 1
+# while i <= 10:
+#     if 0 <= (d:=int(input()))<=10:
+#         number+=str(d)
+#         print(number)
+#         i+=1
+# if len(number)==10:
+#     print("DA")
+# else:
+#     print("NET")
+# # print(f'+7({number[0:3]}){number[3:6]}-{number[6:8]}-{number[8:]}')
+
+#TODO ------------------------------------------------
+# 5.4 | EX 6 | - nerezolvat
+
+#TODO ------------------------------------------------
+# 5.4 | EX 7 |
+
+digits = list(map(int,input().split()))
 result = []
-if not 'ра' in inp:
-    print(-1)
-else:
-    for i in range(len(inp) - 1):
-        if inp[i] == 'р' and inp[i + 1] == 'а':
-            result.append(i)
+for i in range(0,len(digits)):
+    digits[i] *= digits[i]
+    result.append(digits[i])
 print(*result)
 #TODO ------------------------------------------------
+# 5.4 | EX 7 |
