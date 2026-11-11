@@ -410,11 +410,20 @@ import math,sys
 #TODO ------------------------------------------------
 # 5.4 | EX 7 |
 
-digits = list(map(int,input().split()))
+# digits = list(map(int,input().split()))
+# result = []
+# for i in range(0,len(digits)):
+#     digits[i] *= digits[i]
+#     result.append(digits[i])
+# print(*result)
+
+#TODO ------------------------------------------------
+# 5.4 | EX 8 |
+
+inp = list(map(int,input().split()))
 result = []
-for i in range(0,len(digits)):
-    digits[i] *= digits[i]
-    result.append(digits[i])
+for i in range(0,len(inp)):
+    result.append(inp[i])
+    result.append(inp[i])
 print(*result)
 #TODO ------------------------------------------------
-# 5.4 | EX 7 |
