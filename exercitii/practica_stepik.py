@@ -81,11 +81,26 @@ import math
 #TODO ------------------------------------------------
 # FACTORIAL
 
-n = int(input("Intrdu un numar: "))
-i = 1
-result = 1
-for i in range(1,n+1):
-    result *= i
-    i += 1
-print(f"Raspuns: {n}! = {result}.")
+# n = int(input("Intrdu un numar: "))
+# i = 1
+# result = 1
+# for i in range(1,n+1):
+#     result *= i
+#     i += 1
+# print(f"Raspuns: {n}! = {result}.")
+#TODO ------------------------------------------------
+# TEST
+
+# number = ''
+# i = 1
+# while i <= 10:
+#     if 0 <= (d:=int(input()))<=10:
+#         number+=str(d)
+#         print(number)
+#         i+=1
+# if len(number)==10:
+#     print("DA")
+# else:
+#     print("NET")
+# print(f'+7({number[0:3]}){number[3:6]}-{number[6:8]}-{number[8:]}')
 #TODO ------------------------------------------------
