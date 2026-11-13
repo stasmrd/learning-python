@@ -389,20 +389,30 @@ import math,sys
 #             result.append(i)
 # print(*result)
 #TODO ------------------------------------------------
-# 5.4 | EX 5 | - nerezolvat
+# 5.4 | EX 5 |
 
-# number = ''
-# i = 1
-# while i <= 10:
-#     if 0 <= (d:=int(input()))<=10:
-#         number+=str(d)
-#         print(number)
-#         i+=1
-# if len(number)==10:
-#     print("DA")
-# else:
-#     print("NET")
-# # print(f'+7({number[0:3]}){number[3:6]}-{number[6:8]}-{number[8:]}')
+
+d = input()
+i = 0
+for i in range(len(d)):
+    if not any(c.isalpha() for c in d):
+        if d[0] == "+" and d[1] == '7' and d[2] == "(":
+            if d[3:5].isdigit():
+                if d[6] == ')' and d[10] == '-' and d[13] == '-':
+                    print('ДА')
+                    break
+                else:
+                    print('НЕТ')
+                    break
+            else:
+                print('НЕТ')
+                break
+        else:
+            print('НЕТ')
+            break
+    else:
+        print('НЕТ')
+        break
 
 #TODO ------------------------------------------------
 # 5.4 | EX 6 | - nerezolvat
@@ -441,10 +451,45 @@ import math,sys
 #TODO ------------------------------------------------
 # 5.4 | EX 10 |
 
-inp = list(map(float,input().split()))
-result = []
-for i in range(0,len(inp)):
-    if inp[i] < 0:
-        inp[i] = -1.0
-print(*inp)
+# inp = list(map(float,input().split()))
+# result = []
+# for i in range(0,len(inp)):
+#     if inp[i] < 0:
+#         inp[i] = -1.0
+# print(*inp)
+#TODO ------------------------------------------------
+# 5.4 | EX 11 | - nerezolvat
+
+#TODO ------------------------------------------------
+# 5.4 | EX 12 | - nerezolvat
+
+# inp = input().strip()
+# print(inp)
+# ex = []
+# result = []
+#
+# for i in range(0,len(inp)):
+#     if inp[i].isdigit() and inp[i+1].isdigit():
+#         ex.append(inp[i]+inp[i+1])
+#         if inp[i].isdigit():
+#             ex.append(inp[i])
+#         if inp[i] == '+':
+#             ex = ex + (int(inp[i+1]))
+#         if inp[i] == '-':
+#             ex = ex- int(inp[i+1])
+# result.append(ex)
+# print(result)
+
+
+# inp = input()
+# digits = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+# opers = ['+', '-']
+# result = 0
+# for i in inp:
+#     if i in digits:
+#         result += int(digits)
+#     elif inp[i] in opers:
+#         result %= opers.index(inp)
+# print(result)
+
 #TODO ------------------------------------------------
